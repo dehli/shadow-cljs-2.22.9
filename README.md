@@ -1,3 +1,6 @@
+This repository is in reference to discussion found:
+https://github.com/thheller/shadow-cljs/issues/1106
+
 In order to repro the bug, you need to do the following:
 
 ```
