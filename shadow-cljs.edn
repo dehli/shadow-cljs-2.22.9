@@ -1,0 +1,9 @@
+{:deps {:aliases [:cljs]}
+ :builds
+ {:main
+  {:output-dir "out",
+   :target :esm
+   :js-options {:js-provider :import}
+   :modules
+   {:main
+    {:init-fn repro.core/main}}}}}

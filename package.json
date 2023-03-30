@@ -1,0 +1,16 @@
+{
+  "name": "shadow-2.22.9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "npx shadow-cljs release main --pseudo-names",
+    "serve": "npx http-server ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "shadow-cljs": "^2.22.9"
+  }
+}
